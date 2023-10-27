@@ -1,0 +1,105 @@
+.emailRow {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    cursor: pointer;
+    z-index: 999;
+    padding-left: 5px;
+}
+
+.emailRow:hover {
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.24);
+}
+
+.emailRow:hover .emailRow__options svg {
+    color: rgb(56, 56, 56);
+}
+
+.emailRow:hover .emailRow__time {
+    display: none;
+}
+
+.emailRow:hover .emailRow__message>h4 {
+    width: 55vw;
+}
+
+.emailRow:hover .emailRow__actions {
+    display: inline-block !important;
+}
+
+.emailRow__options {
+    display: flex;
+    align-items: center;
+}
+
+.emailRow__options svg {
+    font-size: 20px;
+    color: #b6b3b3;
+}
+
+.emailRow__message {
+    display: flex;
+    /* flex: 0.8; */
+    align-items: center;
+    font-size: 14px;
+}
+
+.emailRow__message>h4 {
+    width: 60vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 40px;
+}
+
+.emailRow__title {
+    min-width: 140px;
+    margin-left: 10px;
+    max-width: 140px;
+}
+
+.emailRow__title>h3 {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.emailRow__time {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: #202124;
+}
+
+.emailRow__actions{
+    display: none !important;
+    margin-left: 1vw;
+    display: flex;
+}
+
+.emailRow__actions svg {
+    font-size: 3vh;
+}
+
+.emailRow__description {
+    font-weight: 400;
+    color: gray;
+}
+
+.seen__email {
+    color: rgb(71, 71, 71);
+    font-weight: 400;
+    background-color: #f2f6fe;
+}
+
+.starred__email {
+    color: #f7ca4c !important;
+}
+
+.selected__email {
+    background-color: #c5dbfa;
+}

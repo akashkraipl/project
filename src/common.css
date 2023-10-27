@@ -1,0 +1,93 @@
+.emailList {
+    border-radius: 20px;
+    background-color: white;
+    margin-right: 15px;
+    flex: 0.85;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+}
+
+.message {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.emailList__settings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding-right: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(245, 245, 245, 1);
+}
+
+.emailList__settingsRight {
+    display: flex;
+    align-items: center;
+}
+
+.emailList__settingsLeft svg,
+.emailList__settingsRight svg {
+    font-size: 20px;
+}
+
+.emailList__settingsLeft .MuiCircularProgress-root {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.emailList__settingsLeft .MuiCircularProgress-root svg {
+    height: 20px;
+}
+
+.emailList__settingsRight p {
+    font-size: 13px;
+    color: rgb(70, 69, 69);
+}
+
+.emailList__select__downarrow {
+    margin-left: -20px;
+}
+
+.emailList__sections {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.emailList__list {
+    min-height: 64vh;
+}
+
+.footer {
+    padding: 18px 10px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid whitesmoke;
+}
+
+.memory__used {
+    display: flex;
+    flex-direction: column;
+}
+
+.memory__used__progress {
+    height: 8px !important;
+    border-radius: 20px !important;
+    background-color: lightgray !important;
+}
+
+.memory__used__text {
+    margin-top: 10px !important;
+}
+
+.memory__used__text, .footer__middle, .footer__right {
+    font-size: 12px !important;
+    color: #626262 !important;
+}

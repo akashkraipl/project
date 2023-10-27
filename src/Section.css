@@ -1,0 +1,28 @@
+.section {
+    color: #534e48;
+    display: flex;
+    padding: 15px 100px 15px 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section:hover {
+    background-color: whitesmoke;
+}
+
+.section--selected {
+    color: #0b57d0;
+    border-bottom: 3px solid #0b57d0;
+}
+
+.section>h4{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.section svg{
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
